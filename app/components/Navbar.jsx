@@ -33,7 +33,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
   return (
     <>
     {/*------------Set background as Image ----------------- */}
-    {/*-------Gemini: 'fixed top-0 right-0 w-screen h-screen -z-10'----------------- */}
+
 
     <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[80%] dark:hidden'>
         <Image src={assets.header_bg_color} alt='' className='w-screen h-screen object-cover'/>

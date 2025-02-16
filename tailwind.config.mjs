@@ -12,7 +12,7 @@ export default {
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
-        darkTheme: '#11001F'
+        darkTheme: '#11001F' //Original darkTheme was #11001F
       },
       fontFamily: {
         Outfit: ["Outfit","sans-serif"],
@@ -30,3 +30,9 @@ export default {
   darkMode: 'selector',
   plugins: [],
 };
+
+{/*
+darkBg: '#0F172A', // Premium deep navy background
+darkCard: '#1E293B', // Slightly lighter for contrast
+darkText: '#E2E8F0', // Soft light gray for readability
+darkAccent: '#7F1D1D', // A deep, premium red for highlights */}
