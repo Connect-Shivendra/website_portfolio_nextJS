@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
+
 const About = ({isDarkMode}) => {
   return (
     <motion.div
@@ -51,7 +52,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.8, delay: 1}}
             className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon,iconDark,title,description},
-                    index)=>(
+                    index)=>( 
                     <motion.li 
                     whileHover={{scale: 1.05}}
                     className ='border-[0.5px] border-gray-400 rounded-xl
@@ -70,20 +71,20 @@ const About = ({isDarkMode}) => {
             initial={{y:20, opacity: 0}}
             whileInView={{y:0, opacity: 1}}
             transition={{duration: 1.3, duration: 0.5}}
-            className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+            className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools of my Trade</motion.h4>
             <motion.ul 
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration: 1.5, duration: 0.6}}
             className='flex items-center gap-3 sm:gap-5'>
-              {toolsData.map((tool,index)=>(
+              {toolsData.map((tool,index)=>( 
                 <motion.li 
                 whileHover={{scale: 1.1}}
                 className='flex items-center justify-center w-12 sm:w-14 aspect-square border
                 border-gray-400 rounded-lg cursor-pointer hover:-translate-x-1
                      duration-500' 
                 key={index}>
-                  <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
+                  <Image src={tool.logo} alt={tool.name} width={56} height={56} className='w-5 sm:w-7' />
                 </motion.li>
               ))}
 
@@ -96,6 +97,3 @@ const About = ({isDarkMode}) => {
 }
 
 export default About
-
-{/*------------infoList is being read from line 109 
-    in assets.js and language,education, projects come from there ----------------- */}

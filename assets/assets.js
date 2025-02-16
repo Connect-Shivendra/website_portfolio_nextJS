@@ -5,11 +5,8 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
+
 import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -35,6 +32,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import snowflake_logo from './snowflake-logo.png';
+import matillion_logo from './matillion-logo.png';
 
 export const assets = {
     user_image,
@@ -44,11 +43,7 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
-    firebase,
-    figma,
     git,
-    mongodb,
     right_arrow_white,
     logo,
     logo_dark,
@@ -73,7 +68,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    snowflake_logo,
+    matillion_logo
 };
 
 export const workData = [
@@ -97,19 +94,19 @@ export const workData = [
         description: 'Managing information effectively is critical to governance and compliance. I have implemented Microsoft Purview, OpenText Content Manager, and RecordPoint to enhance records and information management in alignment with NSW State Records Act and other regulatory requirements. By ensuring proper classification, retention, and disposal of records, I help organizations maintain compliance while improving accessibility and security of critical business information.',
         bgImage: '/work-4.png',
     },
-]
+];
 
 export const serviceData = [
     { icon: assets.mobile_icon, title: 'Data Strategy & Architecture', description: 'Providing end-to-end data strategy solutions, including designing robust data architectures, governance frameworks, and cloud-based data platforms to enable data-driven decision-making.', link: '' },
     { icon: assets.web_icon, title: 'Business Intelligence & Analytics', description: 'Delivering actionable insights through interactive dashboards and reports, enabling organizations to make informed decisions using Power BI and other analytics tools.', link: '' },
     { icon: assets.ui_icon, title: 'Data Engineering & Integration', description: 'Building scalable and efficient data pipelines using modern technologies like Azure, Databricks, and Power BI to ensure seamless data integration across business functions.', link: '' },
     { icon: assets.graphics_icon, title: 'Information Management', description: 'Helping businesses manage, govern, and optimize their data assets by implementing industry best practices for data governance, quality, and compliance', link: '' },
-]
+];
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tools & Platforms', description: 'Azure, AWS, Databricks, Snowflake, Informatica, Matillion, Atlassion' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Programs', description: 'Led and delivered programs of significant capital' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Programs', description: 'Led and delivered programs of significant capital' },
 ];
 
 export const BlogsList = [
@@ -119,9 +116,18 @@ export const BlogsList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, name: 'Data Warehouse & Lakehouse' },
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, name: 'Data Engineering & Integration' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, name: 'Information Governance' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, name: 'Data Security' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, name: 'Data Security' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+  { name: 'Python', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' },
+  { name: 'SQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
+  { name: 'Tableau', logo: 'https://www.tableau.com/sites/default/files/pages/tableaulogo_highres.png' },
+  { name: 'Power BI', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg' },
+  { name: 'AWS', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg' },
+  { name: 'Azure', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg' },
+  { name: 'Git', logo: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
+  { name: 'Snowflake', logo: assets.snowflake_logo },
+  { name: 'Databricks', logo: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png' },
+  { name: 'Matillion', logo: assets.matillion_logo },
 ];
