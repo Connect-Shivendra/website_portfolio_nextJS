@@ -36,9 +36,8 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}} 
         className='max-w-2xl mx-auto font-Ovo'>
-        Passionate Leader with 14+ years of experience in Data Stategy, Enterprise Architecture, Program Delivery in Private and Public sector. 
-        Passionate about transforming businesses through 
-        trusted, accessible, and actionable data    
+        Transformational Leader with 14+ years of experience in  Data Strategy, Architecture, Data Engineering, Analytics, and Program Delivery.
+        Passionate about transforming businesses through trusted, accessible, and actionable data.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 
@@ -52,7 +51,7 @@ const Header = () => {
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1}}
-            href="sample-resume.pdf" download 
+            href="Shivendra-Singh-HoData-CV.pdf" download 
             className='items-center gap-2 px-10 
             py-3 border border-gray-500 flex rounded-full bg-white dark:text-black'>Download CV<Image 
             src={assets.download_icon} alt='' className='w-4'/></motion.a>

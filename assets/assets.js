@@ -104,8 +104,8 @@ export const serviceData = [
 ];
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tools & Platforms', description: 'Azure, AWS, Databricks, Snowflake, Informatica, Matillion, Atlassion' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tools & Platforms', description: 'Azure, AWS, Databricks, Snowflake, Informatica, Tableau, PowerBI, Matillion, & more' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education & Certis', description: 'B.Tech in Computer Science; Certifications in AWS, Togaf, Azure, CDMP' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Programs', description: 'Led and delivered programs of significant capital' },
 ];
 
@@ -120,14 +120,14 @@ export const BlogsList = [
 ];
 
 export const toolsData = [
-  { name: 'Python', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' },
-  { name: 'SQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
-  { name: 'Tableau', logo: 'https://www.tableau.com/sites/default/files/pages/tableaulogo_highres.png' },
-  { name: 'Power BI', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg' },
-  { name: 'AWS', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg' },
-  { name: 'Azure', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg' },
-  { name: 'Git', logo: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
-  { name: 'Snowflake', logo: assets.snowflake_logo },
-  { name: 'Databricks', logo: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png' },
-  { name: 'Matillion', logo: assets.matillion_logo },
+  { name: 'Python', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg', url: 'https://www.python.org/' },
+  { name: 'SQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png', url: 'https://www.mysql.com/' },
+  { name: 'Tableau', logo: 'https://www.tableau.com/sites/default/files/pages/tableaulogo_highres.png', url: 'https://www.tableau.com/' },
+  { name: 'Power BI', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg', url: 'https://powerbi.microsoft.com/' },
+  { name: 'AWS', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg', url: 'https://aws.amazon.com/' },
+  { name: 'Azure', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg', url: 'https://azure.microsoft.com/' },
+  { name: 'Git', logo: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png', url: 'https://git-scm.com/' },
+  { name: 'Snowflake', logo: assets.snowflake_logo, url: 'https://www.snowflake.com/' },
+  { name: 'Databricks', logo: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png', url: 'https://databricks.com/' },
+  { name: 'Matillion', logo: assets.matillion_logo, url: 'https://www.matillion.com/' }
 ];

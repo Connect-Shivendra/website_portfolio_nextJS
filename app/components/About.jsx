@@ -26,7 +26,7 @@ const About = ({isDarkMode}) => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 0.8}}
-      className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+      className='flex w-full flex-col items-center gap-20 my-20'>
         <motion.div 
         initial={{opacity: 0, scale: 0.9}}
         whileInView={{opacity: 1, scale: 1}}
@@ -82,7 +82,7 @@ const About = ({isDarkMode}) => {
                 whileHover={{scale: 1.1}}
                 className='flex items-center justify-center w-12 sm:w-14 aspect-square border
                 border-gray-400 rounded-lg cursor-pointer hover:-translate-x-1
-                     duration-500' 
+                     duration-500  dark:bg-white' 
                 key={index}>
                   <Image src={tool.logo} alt={tool.name} width={56} height={56} className='w-5 sm:w-7' />
                 </motion.li>
